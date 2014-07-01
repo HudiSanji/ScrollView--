@@ -83,6 +83,7 @@
     _scrollview.pagecontrol.othercolor=[UIColor whiteColor];
     _scrollview.pagecontrol.currentPage=0;
     [self.view addSubview:_scrollview.pagecontrol];
+    NSLog(@"");
 }
 
 -(void)viewDidAppear:(BOOL)animated
